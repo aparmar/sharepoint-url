@@ -15,3 +15,23 @@ Right click on a sharepoint file, and click "Create SharePoint URL". Go to your 
 
 # To open a file from a received URL
 Highlight the URL, and press Control + C to copy it. Press Control + R to open the run menu. Press Control + V to paste the URL. Click Enter. The file will open in the default app
+
+# Installation
+1. Download the folder
+1. Double click on rightClickAdd.bat
+1. Accept any warnings that windows may generate, since you are running a downloaded batch file
+1. Enjoy!
+
+# Uninstallation
+1. Go to the folder
+1. Double click on rightClickRemove.bat
+1. Delete the folder
+1. I will be unhappy to see you go!
+
+# FAQ
+1. The pasted URL wouldn't open
+   - Verify that the folder structure matches. Some users download their sharepoint folders to a non-standard locations
+   - Verify that the folder is synced via OneDrive. An unsynced folder means there are no local files
+   - Sometimes large files may take longer to open, since OneDrive is downloading them
+
+
